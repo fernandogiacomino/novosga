@@ -14,10 +14,12 @@ declare(strict_types=1);
 namespace App\Controller\Api;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 /**
  * @template T of object
@@ -27,8 +29,11 @@ use Symfony\Component\Serializer\SerializerInterface;
 abstract class ApiCrudController extends ApiControllerBase
 {
     public function __construct(
+        EntityManagerInterface $em,
+        TranslatorInterface $translator,
         private readonly SerializerInterface $serializer,
     ) {
+        parent::__construct($em, $translator);
     }
 
     /** @return class-string<T> */
@@ -47,11 +52,11 @@ abstract class ApiCrudController extends ApiControllerBase
 
     public function search(Request $request): Response
     {
-        $q      = explode(' ', $request->get('q'));
-        $sort   = (string) $request->get('sort');
-        $order  = strtolower((string) $request->get('order'));
-        $limit  = $request->get('limit') ?? 25;
-        $offset = $request->get('offset') ?? 0;
+        $q = explode(' ', $request->get('q', ''));
+        $sort = (string) $request->get('sort', '');
+        $order = strtolower((string) $request->get('order', ''));
+        $limit = (int) $request->get('limit', 25);
+        $offset = (int) $request->get('offset', 0);
 
         if (!in_array($order, ['asc', 'desc'])) {
             $order = 'asc';

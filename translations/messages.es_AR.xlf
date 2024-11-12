@@ -542,12 +542,12 @@
                 <source>admin.webapi.clients.subtitle</source>
                 <target>Para acceder a algunas URLs es necesario poseer un token de acceso, y para ésto debe antes registrar la aplicación cliente.</target>
             </trans-unit>
-            <trans-unit id="admin.webapi.clients.public_id">
-                <source>admin.webapi.clients.public_id</source>
+            <trans-unit id="admin.webapi.clients.client_id">
+                <source>admin.webapi.clients.client_id</source>
                 <target>Id pública</target>
             </trans-unit>
-            <trans-unit id="admin.webapi.clients.public_secret">
-                <source>admin.webapi.clients.public_secret</source>
+            <trans-unit id="admin.webapi.clients.client_secret">
+                <source>admin.webapi.clients.client_secret</source>
                 <target>Contraseña Cliente</target>
             </trans-unit>
             <trans-unit id="admin.webapi.clients.description">

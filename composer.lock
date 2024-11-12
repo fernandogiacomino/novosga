@@ -2143,16 +2143,16 @@
         },
         {
             "name": "novosga/reports-bundle",
-            "version": "dev-master",
+            "version": "v2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/novosga/reports-bundle.git",
-                "reference": "2f2fc850fb8380e0c2ca7eb94cff73b5c8f3d1d2"
+                "reference": "0b9a7c02f6c9a9e35d5c5adc2d6e3bc3ccd76895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/novosga/reports-bundle/zipball/2f2fc850fb8380e0c2ca7eb94cff73b5c8f3d1d2",
-                "reference": "2f2fc850fb8380e0c2ca7eb94cff73b5c8f3d1d2",
+                "url": "https://api.github.com/repos/novosga/reports-bundle/zipball/0b9a7c02f6c9a9e35d5c5adc2d6e3bc3ccd76895",
+                "reference": "0b9a7c02f6c9a9e35d5c5adc2d6e3bc3ccd76895",
                 "shasum": ""
             },
             "require": {
@@ -2170,7 +2170,7 @@
                 "slevomat/coding-standard": "~8.0"
             },
             "default-branch": true,
-            "type": "novosga-module",
+            "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.2-dev"
@@ -2187,9 +2187,9 @@
             ],
             "support": {
                 "issues": "https://github.com/novosga/reports-bundle/issues",
-                "source": "https://github.com/novosga/reports-bundle/tree/master"
+                "source": "https://github.com/novosga/reports-bundle/tree/v2.2"
             },
-            "time": "2024-07-22T13:55:43+00:00"
+            "time": "2024-11-12T20:53:51+00:00"
         },
         {
             "name": "novosga/scheduling-bundle",
@@ -2197,12 +2197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/novosga/scheduling-bundle.git",
-                "reference": "de02f114668a4c43ae80c90336aaf991c937910d"
+                "reference": "cc11c0454b133df761ff1546f999ba44afd5861f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/novosga/scheduling-bundle/zipball/de02f114668a4c43ae80c90336aaf991c937910d",
-                "reference": "de02f114668a4c43ae80c90336aaf991c937910d",
+                "url": "https://api.github.com/repos/novosga/scheduling-bundle/zipball/cc11c0454b133df761ff1546f999ba44afd5861f",
+                "reference": "cc11c0454b133df761ff1546f999ba44afd5861f",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2220,7 @@
                 "slevomat/coding-standard": "~8.0"
             },
             "default-branch": true,
-            "type": "novosga-module",
+            "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.2-dev"
@@ -2239,7 +2239,7 @@
                 "issues": "https://github.com/novosga/scheduling-bundle/issues",
                 "source": "https://github.com/novosga/scheduling-bundle/tree/v2.2"
             },
-            "time": "2024-11-08T13:02:59+00:00"
+            "time": "2024-11-12T21:21:08+00:00"
         },
         {
             "name": "novosga/settings-bundle",
