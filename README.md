@@ -27,6 +27,12 @@ Para ajuda na instalação e utilização é possível consultar a documentaçã
 
 Demais dúvidas podem ser enviadas para o fórum do projeto (https://discuss.novosga.org/) ou no grupo oficial do Telegram (https://t.me/novosga).
 
+
+## Contribuindo
+
+Muito obrigado por considerar contribuir para o projeto. O guia de contribução pode ser encontrado na [documentação do Novo SGA](https://novosga.org/docs/#/2.1/contributing).
+
+
 ## Doações
 
 Você aprecia o Novo SGA ou já o utiliza em sua empresa ou em projetos com clientes? Considere se tornar patrocinador e ganhar visibilidade ao ter sua marca nas páginas oficiais do projeto, além de contribuir para a sustentabilidade de uma ferramenta open-source que beneficia milhares de usuários.
