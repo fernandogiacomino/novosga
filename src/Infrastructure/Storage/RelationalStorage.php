@@ -181,7 +181,7 @@ abstract class RelationalStorage extends DoctrineStorage
 
     /** {@inheritDoc} */
     public function acumularAtendimentos(
-        UsuarioInterface $usuario,
+        ?UsuarioInterface $usuario,
         ?UnidadeInterface $unidade,
         DateTimeInterface $ateData,
     ): void {
