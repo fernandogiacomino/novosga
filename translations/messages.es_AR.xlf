@@ -13,7 +13,7 @@
             </trans-unit>
             <trans-unit id="3">
                 <source>modal.unity.label</source>
-                <target>Por favor escoger la unidad</target>
+                <target>Por favor escoge la unidad</target>
                 
             </trans-unit>
             <trans-unit id="4">
@@ -708,7 +708,7 @@
             </trans-unit>
             <trans-unit id="label.color">
                 <source>label.color</source>
-                <target>Cor</target>
+                <target>Color</target>
             </trans-unit>
             <trans-unit id="label.customer_id">
                 <source>label.customer_id</source>
@@ -716,11 +716,11 @@
             </trans-unit>
             <trans-unit id="label.phone">
                 <source>label.phone</source>
-                <target>Telefone</target>
+                <target>Teléfono</target>
             </trans-unit>
             <trans-unit id="label.gender">
                 <source>label.gender</source>
-                <target>Gênero</target>
+                <target>Género</target>
             </trans-unit>
             <trans-unit id="label.gender.male">
                 <source>label.gender.male</source>
@@ -728,15 +728,15 @@
             </trans-unit>
             <trans-unit id="label.gender.female">
                 <source>label.gender.female</source>
-                <target>Feminino</target>
+                <target>Femenino</target>
             </trans-unit>
             <trans-unit id="label.gender.unknown">
                 <source>label.gender.unknown</source>
-                <target>Outro</target>
+                <target>Otro</target>
             </trans-unit>
             <trans-unit id="label.notes">
                 <source>label.notes</source>
-                <target>Observação</target>
+                <target>Observaciones</target>
             </trans-unit>
         </body>
     </file>
